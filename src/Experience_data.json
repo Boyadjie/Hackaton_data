@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Production de coton",
+    "paragraph": [
+      "<strong>6,5 millions</strong> de coton produit par an par <strong>l'Inde.</strong>",
+      "Pour faire pousser ce coton il faut <strong>4 000 L</strong> d'eau par <strong>kg.</strong>",
+      "<strong>Soit 33 baignoires !</strong>"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Tissage du coton",
+    "paragraph": [
+      "Afin de constituer le tissu, il faut assembler les fils de coton au <strong>Pakistan.</strong>",
+      "Il faut <b>70 fils<b> de coton pour <b>1 cm² de tissu.</b>",
+      "Pour faire un pantalon il faut en moyenne 10 500 cm² de tissu. <strong>Soit 735 000 fils !</strong>"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "FABRICATION ET TEINTURE DE la toile du jean",
+    "paragraph": [
+      "<strong>3 000 usines</strong> produisent la toile nécessaire à la fabrication de <strong>800 000 jeans par jour.</strong> Ce procédé s'effectue en <strong>Chine.</strong>",
+      "La teinture est fabriquée avec un pigment de synthèse : Pour faire <b>1 kg</b> de pigment il faut <b>100 kg de pétrole</b> et <b>1000 L d'eau.</b>"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Assemblage du jean",
+    "paragraph": [
+      "Le jean est assemblé en <strong>Tunisie</strong>, avec des éléments qui viennent de différents pays : ",
+      [
+        "- Les rivets proviennent d'Australie.",
+        "- Les fermetures éclairs sont issues du Japon.",
+        "- Les boutons sont originaires du Congo."
+      ]
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Délavage et sablage",
+    "paragraph": [
+      "Le sablage consiste à retirer la pigmentation du denim pour créer artificiellement des zones usées sur la toile et l'éclaircir.",
+      "Ce procédé à déjà entrainé la <b>mort de 47 ouvriers</b> turcs pour <b>1 200 malades</b> après seulement <b>6 mois d'exposition.</b> La silicose est une <b>maladie incurable et mortelle.</b>",
+      "Cette tâche est réalisé principalement en <strong>Turquie</strong> et au <strong>Bangladesh.</strong>"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "LIVRAISON DU PRODUIT DANS LES GRANDES ENSEIGNES",
+    "paragraph": [
+      "Livraison du produit dans les grandes enseignes des pays <strong>Européens</strong> et aux <strong>Etats Unis</strong> "
+    ]
+  }
+]

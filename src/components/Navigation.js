@@ -1,21 +1,31 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({ current }) => {
   return (
-    <div className="navigation ">
-      <nav>
-        <NavLink exact="true" to="/">
-          Accueil
-        </NavLink>
-        <NavLink exact="true" to="/chiffres-cles">
-          Chiffres Clés
-        </NavLink>
-        <NavLink exact="true" to="/a-propos">
-          À propos
-        </NavLink>
-      </nav>
-    </div>
+    <nav>
+      <NavLink
+        exact="true"
+        to="/"
+        className={current === "home" ? "current" : ""}
+      >
+        Accueil
+      </NavLink>
+      <NavLink
+        exact="true"
+        to="/chiffres-cles"
+        className={current === "key-numbers" ? "current" : ""}
+      >
+        Chiffres Clés
+      </NavLink>
+      <NavLink
+        exact="true"
+        to="/a-propos"
+        className={current === "about" ? "current" : ""}
+      >
+        À propos
+      </NavLink>
+    </nav>
   );
 };
 
