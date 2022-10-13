@@ -1,0 +1,26 @@
+"filename", "language", "JavaScript", "XML", "JavaScript React", "JSON", "HTML", "Markdown", "comment", "blank", "total"
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/README.md", "Markdown", 0, 0, 0, 0, 0, 1, 0, 1, 2
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/package-lock.json", "JSON", 0, 0, 0, 28983, 0, 0, 0, 1, 28984
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/package.json", "JSON", 0, 0, 0, 41, 0, 0, 0, 1, 42
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/home/scroll.svg", "XML", 0, 6, 0, 0, 0, 0, 0, 1, 7
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/logo.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/socials/facebook.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/socials/instagram.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/socials/tiktok.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/img/socials/youtube.svg", "XML", 0, 1, 0, 0, 0, 0, 0, 0, 1
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/public/index.html", "HTML", 0, 0, 0, 0, 19, 0, 0, 1, 20
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/App.js", "JavaScript", 18, 0, 0, 0, 0, 0, 0, 3, 21
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/Experience_data.json", "JSON", 0, 0, 0, 56, 0, 0, 0, 0, 56
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/assets/arrow.svg", "XML", 0, 3, 0, 0, 0, 0, 0, 1, 4
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/components/Header.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 3, 15
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/components/Navigation.js", "JavaScript", 30, 0, 0, 0, 0, 0, 0, 3, 33
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/components/circle.jsx", "JavaScript React", 0, 0, 12, 0, 0, 0, 0, 5, 17
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/index.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 3, 15
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/pages/About.js", "JavaScript", 43, 0, 0, 0, 0, 0, 0, 4, 47
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/pages/ChiffresCles.js", "JavaScript", 59, 0, 0, 0, 0, 0, 0, 9, 68
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/pages/Home.js", "JavaScript", 60, 0, 0, 0, 0, 0, 0, 8, 68
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/pages/NotFound.js", "JavaScript", 9, 0, 0, 0, 0, 0, 0, 2, 11
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/styles/GlobalStyles.js", "JavaScript", 20, 0, 0, 0, 0, 0, 0, 6, 26
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/styles/Style.js", "JavaScript", 71, 0, 0, 0, 0, 0, 0, 16, 87
+"/Users/mathieuboyer/Documents/GitHub/Hackaton_data/src/styles/chiffresClesStyles.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"Total", "-", 334, 14, 12, 29080, 19, 1, 0, 69, 29529

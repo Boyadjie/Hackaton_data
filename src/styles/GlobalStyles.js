@@ -8,6 +8,9 @@ export default createGlobalStyle`
 }
 
 *{
+
+  margin: 0;
+  padding: 0;
   color: var(--darkBlue);
   font-family: 'Exo', sans-serif;
   box-sizing: border-box;
