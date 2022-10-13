@@ -2,19 +2,13 @@ import styled from "styled-components";
 
 export const StyledChiffresclé = styled.div`
   margin-top: 10rem;
+  margin-bottom: 15rem;
 
   width: 100%;
   h1 {
     text-align: center;
 
-    padding: 5rem 0;
-  }
-
-  .minibar {
-    width: 100%;
-    height: 75px;
-    background-color: #c0d0c8;
-    margin-top: 15rem;
+    padding: 0rem 0 5rem 0;
   }
 `;
 

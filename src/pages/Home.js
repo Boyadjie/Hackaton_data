@@ -6,7 +6,7 @@ import Header from "../components/Header";
 import { Experience } from "../styles/HomeStyle";
 import Experience_data from "../Experience_data.json";
 import Step from "../components/Step/Step";
-import { StyledFooter } from "../styles/Style";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [travel, setTravel] = useState("0");
@@ -145,7 +145,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home">
+    <>
       <Header current="home" />
 
       <main>
@@ -186,10 +186,8 @@ const Home = () => {
         </Experience>
       </main>
 
-      <StyledFooter>
-        Helooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-      </StyledFooter>
-    </div>
+      <Footer />
+    </>
   );
 };
 

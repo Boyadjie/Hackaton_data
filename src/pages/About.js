@@ -1,45 +1,45 @@
 import React from "react";
 import Header from "../components/Header";
-
+import Footer from "../components/Footer";
+import { StyledAbout } from "../styles/aboutStyles";
 const About = () => {
   return (
-    <div id="about">
+    <>
       <Header current="about" />
-
-      <main>
+      <StyledAbout>
         <h1>About</h1>
-        <form className="form">
-          <div className="leftForm">
-            <input
-              className="input"
-              placeholder="Nom*"
-              type="text"
-              name="name"
-            />
-            <input
-              className="input"
-              placeholder="Prénom*"
-              type="text"
-              name="firstname"
-            />
+
+        <h1>nous contacter</h1>
+        <div className="formcontainer">
+          <form className="form">
+            <div className="firsts">
+              <input
+                className="input"
+                placeholder="Nom*"
+                type="text"
+                name="name"
+              />
+              <input
+                className="input"
+                placeholder="Prénom*"
+                type="text"
+                name="firstname"
+              />
+            </div>
             <input
               className="input"
               type="email"
               placeholder="Adresse mail*"
               name="email"
             />
-            <input
-              className="input"
-              type="text"
-              name="sujet"
-              placeholder="Sujet du message*"
-            />
+
             <textarea className="input" placeholder="Message*"></textarea>
             <input className="btn" type="submit" value="Envoyer" />
-          </div>
-        </form>
-      </main>
-    </div>
+          </form>
+        </div>
+      </StyledAbout>
+      <Footer />
+    </>
   );
 };
 

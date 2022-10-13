@@ -5,7 +5,9 @@ import { StyledHeader } from "../styles/Style";
 const Header = (props) => {
   return (
     <StyledHeader>
-      <img src="/img/logo.svg" alt="Vin'j logo" />
+      <a href="/">
+        <img src="/img/logo.svg" alt="Vin'J logo" />
+      </a>
       <Navigation {...props} />
     </StyledHeader>
   );

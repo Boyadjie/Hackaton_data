@@ -18,6 +18,7 @@ export const Experience = styled.div`
     h1 {
       transition: all 0.3s;
       font-size: 64px;
+      line-height: 1;
       padding: 0;
       margin: 0;
     }
@@ -49,7 +50,6 @@ export const Experience = styled.div`
           &#japon,
           &#australie,
           &#congo {
-            fill: var(--lightGreen);
             transition-delay: 0.5s;
           }
 
@@ -128,6 +128,14 @@ export const Experience = styled.div`
       li {
         font-weight: 400;
         font-size: 14px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      .step-title {
+        margin: 30px 0;
       }
 
       strong,
@@ -254,6 +262,7 @@ export const Experience = styled.div`
                 right: -45%;
                 background: url(/img/home/steps/content/arrow.svg);
                 background-size: 100% 100%;
+                z-index: 100;
               }
             }
 

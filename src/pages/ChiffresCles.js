@@ -23,6 +23,7 @@ import {
   Bigcirclecontainer,
   StyledChiffresclé,
 } from "../styles/chiffresClesStyles";
+import Footer from "../components/Footer";
 
 var TimeConnecte = new Date();
 
@@ -58,33 +59,11 @@ const ChiffresCles = () => {
   let [usedCoton, setUsedCoton] = useState(0);
 
   return (
-    <div id="key-numbers">
+    <>
       <Header current="key-numbers" />
 
       <StyledChiffresclé>
         <h1>Chiffres Clés</h1>
-
-        {/* <Circle
-            size={"500px"}
-            hSize={"54px"}
-            sSize={"20px"}
-            main={`${Math.floor(soldJeans)}`}
-            sub={`Nombre de jeans
-          vendus dans le monde
-          depuis le 01/01/2022`}
-            img={jeans}
-          ></Circle>
-          <Circle
-            size={"400px"}
-            hSize={"30px"}
-            sSize={"14px"}
-            main={`${Math.floor(usedCoton)}`}
-            sub={`Nombre de jeans
-          vendus dans le monde
-          depuis le 01/01/2022`}
-            img={jeans}
-            imgSub={"testiiiiiitestoooooooo"}
-          ></Circle> */}
 
         <Bar color="#C0D0C8">
           <Circle
@@ -174,8 +153,9 @@ const ChiffresCles = () => {
             main={`${Math.floor(soldJeans * 10000)
               .toLocaleString("en")
               .replaceAll(",", " ")} L`}
-            sub={`2,3 milliards de
-            jeans vendus / an`}
+            sub={`Eau utilisée pour 
+            la production du 
+            jean`}
             img={water}
             gap={"2rem"}
           ></Circle>
@@ -225,10 +205,10 @@ const ChiffresCles = () => {
             imgSub={"Kg / jour"}
           ></Circle>
         </Bar>
-
-        <div className="minibar"></div>
       </StyledChiffresclé>
-    </div>
+
+      <Footer />
+    </>
   );
 };
 
