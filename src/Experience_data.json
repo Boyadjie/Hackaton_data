@@ -6,6 +6,17 @@
       "<strong>6,5 millions</strong> de coton produit par an par <strong>l'Inde.</strong>",
       "Pour faire pousser ce coton il faut <strong>4 000 L</strong> d'eau par <strong>kg.</strong>",
       "<strong>Soit 33 baignoires !</strong>"
+    ],
+    "countryImgPath": "/img/home/countries/country1.svg",
+    "content": [
+      {
+        "data": "1 kg",
+        "imgPath": "/img/home/steps/content/step1/coton.svg"
+      },
+      {
+        "data": "33",
+        "imgPath": "/img/home/steps/content/step1/bathtub.svg"
+      }
     ]
   },
   {
@@ -14,7 +25,18 @@
     "paragraph": [
       "Afin de constituer le tissu, il faut assembler les fils de coton au <strong>Pakistan.</strong>",
       "Il faut <b>70 fils<b> de coton pour <b>1 cm² de tissu.</b>",
-      "Pour faire un pantalon il faut en moyenne 10 500 cm² de tissu. <strong>Soit 735 000 fils !</strong>"
+      "Pour faire un pantalon il faut en moyenne 10 500 cm² de tissu. <strong>Soit 735&nbsp;000 fils !</strong>"
+    ],
+    "countryImgPath": "/img/home/countries/country2.svg",
+    "content": [
+      {
+        "data": "1",
+        "imgPath": "/img/home/steps/content/step2/jean.svg"
+      },
+      {
+        "data": "735 000",
+        "imgPath": "/img/home/steps/content/step2/tissu.svg"
+      }
     ]
   },
   {
@@ -23,18 +45,53 @@
     "paragraph": [
       "<strong>3 000 usines</strong> produisent la toile nécessaire à la fabrication de <strong>800 000 jeans par jour.</strong> Ce procédé s'effectue en <strong>Chine.</strong>",
       "La teinture est fabriquée avec un pigment de synthèse : Pour faire <b>1 kg</b> de pigment il faut <b>100 kg de pétrole</b> et <b>1000 L d'eau.</b>"
+    ],
+    "countryImgPath": "/img/home/countries/country3.svg",
+    "content": [
+      {
+        "data": "1 kg",
+        "imgPath": "/img/home/steps/content/step3/pigment.svg"
+      },
+      {
+        "data": [
+          "100 kg",
+          "1 000 L"
+        ],
+        "imgPath": [
+          "/img/home/steps/content/step3/petrol.svg",
+          "/img/home/steps/content/step3/water.svg"
+        ]
+      }
     ]
   },
   {
     "id": 4,
     "title": "Assemblage du jean",
     "paragraph": [
-      "Le jean est assemblé en <strong>Tunisie</strong>, avec des éléments qui viennent de différents pays : ",
+      "Le jean est assemblé en <strong>Tunisie</strong>, avec des éléments <br/>qui viennent de différents pays : ",
       [
         "- Les rivets proviennent d'Australie.",
         "- Les fermetures éclairs sont issues du Japon.",
         "- Les boutons sont originaires du Congo."
       ]
+    ],
+    "countryImgPath": "/img/home/countries/country4.svg",
+    "content": [
+      {
+        "imgPath": "/img/home/steps/content/step4/card1.svg",
+        "data": "Rivets",
+        "countryPath": "/img/home/steps/content/step4/countryCard1.svg"
+      },
+      {
+        "imgPath": "/img/home/steps/content/step4/card2.svg",
+        "data": "Fermeture éclaire",
+        "countryPath": "/img/home/steps/content/step4/countryCard2.svg"
+      },
+      {
+        "imgPath": "/img/home/steps/content/step4/card3.svg",
+        "data": "Boutons",
+        "countryPath": "/img/home/steps/content/step4/countryCard3.svg"
+      }
     ]
   },
   {
@@ -44,6 +101,17 @@
       "Le sablage consiste à retirer la pigmentation du denim pour créer artificiellement des zones usées sur la toile et l'éclaircir.",
       "Ce procédé à déjà entrainé la <b>mort de 47 ouvriers</b> turcs pour <b>1 200 malades</b> après seulement <b>6 mois d'exposition.</b> La silicose est une <b>maladie incurable et mortelle.</b>",
       "Cette tâche est réalisé principalement en <strong>Turquie</strong> et au <strong>Bangladesh.</strong>"
+    ],
+    "countryImgPath": "/img/home/countries/country5.svg",
+    "content": [
+      {
+        "imgPath": "/img/home/steps/content/step5/ruban.svg",
+        "data": "Décès : 47"
+      },
+      {
+        "imgPath": "/img/home/steps/content/step5/virus.svg",
+        "data": "Malades : 1 200"
+      }
     ]
   },
   {
@@ -51,6 +119,15 @@
     "title": "LIVRAISON DU PRODUIT DANS LES GRANDES ENSEIGNES",
     "paragraph": [
       "Livraison du produit dans les grandes enseignes des pays <strong>Européens</strong> et aux <strong>Etats Unis</strong> "
-    ]
+    ],
+    "countryImgPath": [
+      "/img/home/countries/country6.svg",
+      "/img/home/countries/country7.svg"
+    ],
+    "content": {
+      "data1": "Avant d'arriver dans ton placard, un jeans parcours <strong>65 000 km</strong> soit <b>1.5 fois</b> le tour de la terre !",
+      "data2": "Pour réduire ton impact écologique,<br/><strong>penses à la seconde main !</strong>",
+      "imgPath": "/img/home/steps/content/step6/globe.svg"
+    }
   }
 ]
