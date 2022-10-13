@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header`
   width: 100%;
-  padding: 15px 30px;
+  padding: 15px 80px;
   box-shadow: 0px 3px 15px var(--shadow);
   display: flex;
   justify-content: space-between;
@@ -10,10 +10,11 @@ export const StyledHeader = styled.header`
   position: fixed;
   top: 0;
   background-color: white;
-  z-index: 10;
+  z-index: 1000;
+
   nav {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     width: max-content;
 
     a {
@@ -27,37 +28,12 @@ export const StyledHeader = styled.header`
   }
 `;
 
-export const Experience = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  height: calc(100vh - 120px);
-
-  .map {
-    position: fixed;
-    width: calc(60% - 30px);
-    right: 30px;
-    top: 120px;
-    background-color: red;
-
-    h1 {
-      transition: all 0.3s;
-    }
-  }
-
-  .steps {
-    width: 40%;
-
-    .step {
-      width: 100%;
-      height: 70%;
-      margin-top: 150px;
-
-      &:not(:last-child) {
-        margin-bottom: 50px;
-      }
-    }
-  }
+export const StyledFooter = styled.footer`
+  width: 100%;
+  padding: 15px 80px;
+  background-color: blue;
+  position: relative;
+  z-index: 1000;
 `;
 
 export const StyledCircle = styled.div`
