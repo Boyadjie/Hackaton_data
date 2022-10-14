@@ -3,6 +3,28 @@ import styled from "styled-components";
 export const StyledAbout = styled.div`
   margin-top: 10rem;
 
+  .btn {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    background: var(--mediumBlue);
+    width: max-content;
+    margin: 30px auto;
+    box-shadow: 0px 6px 8px var(--shadow);
+    transform: scale(1);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0px 8px 15px var(--shadow);
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+
   h1 {
     text-align: center;
   }
@@ -24,17 +46,6 @@ export const StyledAbout = styled.div`
 
     flex-direction: column;
 
-    // input:nth-child(1) {
-    //   display: inline;
-
-    //   color: red;
-    // }
-    // input:nth-child(2) {
-    //   display: inline;
-    //   width: 50%;
-    //   display: inline;
-    // }
-
     input {
       min-height: 60px;
 
@@ -45,26 +56,6 @@ export const StyledAbout = styled.div`
       border: none;
 
       box-shadow: inset 0px 3px 8px #00000022;
-    }
-
-    .btn {
-      width: 25%;
-
-      display: flex;
-
-      align-self: flex-end;
-
-      justify-content: center;
-
-      align-items: center;
-
-      background-color: #86b8ba;
-
-      box-shadow: 0px 3px 6px #00000022;
-
-      color: white;
-
-      font-size: 1.5rem;
     }
 
     textarea {
@@ -122,14 +113,6 @@ export const AboutBar = styled.div`
     color: white;
 
     text-decoration: none;
-  }
-
-  .btn {
-    background-color: #86b8ba;
-
-    padding: 1rem 3rem;
-
-    border-radius: 20rem;
   }
 
   .btncont {

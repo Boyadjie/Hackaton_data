@@ -127,11 +127,12 @@ export const StyledNotFound = styled.div`
     width: max-content;
     margin: 30px auto;
     box-shadow: 0px 6px 8px var(--shadow);
+    transform: scale(1);
     transition: all 0.3s ease;
 
     &:hover {
       box-shadow: 0px 8px 15px var(--shadow);
-      padding: 20px 50px;
+      transform: scale(1.1);
     }
   }
 

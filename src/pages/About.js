@@ -12,12 +12,12 @@ const About = () => {
         <h1>About</h1>
 
         <AboutBar color="#19363B" gap={"5rem"} margin={"8rem"}>
-          <img src={vinted}></img>
+          <img src={vinted} alt="Logo Vinted"></img>
 
           <div className="sect">
             <h2 className="title">Tu ne le portes pas ? Vends le ! </h2>
             <p className="subtitle">
-              La seconde main, c’est l’avenir et Vinted te le prouve. Sur
+              La seconde main, c'est l'avenir et Vinted te le prouve. Sur
               Vinted, tu vends les vêtements qui ont encore des choses à vivre
               et tu déniches des merveilles que tu ne trouves pas en boutique.
               Nous avons créé Vin'J pour sensibiliser et pour vous montrer les
