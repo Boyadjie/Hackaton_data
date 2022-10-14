@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { StyledAbout } from "../styles/aboutStyles";
+import { AboutBar, StyledAbout } from "../styles/aboutStyles";
+
+import vinted from "../img/vinted.png";
 const About = () => {
   return (
     <>
@@ -9,6 +11,27 @@ const About = () => {
       <StyledAbout>
         <h1>About</h1>
 
+        <AboutBar color="#19363B" gap={"5rem"} margin={"8rem"}>
+          <img src={vinted}></img>
+
+          <div className="sect">
+            <h2 className="title">Tu ne le portes pas ? Vends le ! </h2>
+            <p className="subtitle">
+              La seconde main, c’est l’avenir et Vinted te le prouve. Sur
+              Vinted, tu vends les vêtements qui ont encore des choses à vivre
+              et tu déniches des merveilles que tu ne trouves pas en boutique.
+              Nous avons créé Vin'J pour sensibiliser et pour vous montrer les
+              chiffres impactant qu'on la production de jean et de textile en
+              général.
+            </p>
+          </div>
+
+          <div className="btncont">
+            <div className="btn">
+              <a href="https://www.vinted.fr/">Aller sur le site</a>
+            </div>
+          </div>
+        </AboutBar>
         <h1>nous contacter</h1>
         <div className="formcontainer">
           <form className="form">
@@ -33,7 +56,7 @@ const About = () => {
               name="email"
             />
 
-            <textarea className="input" placeholder="Message*"></textarea>
+            <textarea className="input mess" placeholder="Message*"></textarea>
             <input className="btn" type="submit" value="Envoyer" />
           </form>
         </div>
