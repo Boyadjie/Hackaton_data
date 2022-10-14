@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Header current="about" />
       <StyledAbout>
-        <h1>About</h1>
+        <h1>À propos</h1>
 
         <AboutBar color="#19363B" gap={"5rem"} margin={"8rem"}>
           <img src={vinted} alt="Logo Vinted"></img>
