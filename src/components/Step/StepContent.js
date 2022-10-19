@@ -22,6 +22,9 @@ const StepContent = ({ id, content }) => {
             <p>{content[0].data}</p>
             <img src={content[0].imgPath} alt="Data illustration" />
           </div>
+          <div id="double-arrow">
+            <img src="/img/home/steps/content/arrow.svg" alt="Arrow" />
+          </div>
           <div id="double-content">
             <div>
               <p>{content[1].data[0]}</p>

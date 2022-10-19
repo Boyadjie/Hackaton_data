@@ -34,66 +34,23 @@ export const Experience = styled.div`
       width: 100%;
       position: relative;
 
-      img {
+      svg {
         display: block;
         width: 100%;
-      }
 
-      .pins {
-        svg {
-          position: absolute;
-          z-index: 100;
-          fill: var(--skin);
-          transition: all 0.3s ease-in;
+        #Pins > * {
           opacity: 0;
+          transition: all 0.3s ease-in;
+        }
 
-          &#japon,
-          &#australie,
-          &#congo {
-            transition-delay: 0.5s;
-          }
+        #japon,
+        #australie,
+        #congo {
+          transition-delay: 0.5s;
+        }
 
-          &#inde {
-            top: 265px;
-            left: 700px;
-            opacity: 1;
-          }
-          &#pakistan {
-            top: 230px;
-            left: 670px;
-          }
-          &#chine {
-            top: 230px;
-            left: 780px;
-          }
-          &#tunisie {
-            top: 230px;
-            left: 505px;
-          }
-          &#japon {
-            top: 212px;
-            right: 171px;
-          }
-          &#australie {
-            top: 400px;
-            right: 150px;
-          }
-          &#congo {
-            top: 330px;
-            left: 560px;
-          }
-          &#turquie {
-            top: 205px;
-            left: 570px;
-          }
-          &#france {
-            top: 180px;
-            left: 495px;
-          }
-          &#usa {
-            top: 190px;
-            left: 230px;
-          }
+        #inde {
+          opacity: 1;
         }
       }
     }
@@ -230,15 +187,13 @@ export const Experience = styled.div`
           display: flex;
           justify-content: space-between;
           margin-top: 40px;
+          width: 100%;
 
           > div {
             display: flex;
             align-items: center;
-            background-color: white;
-            padding: 15px 30px;
             border-radius: 15px;
             height: max-content;
-            box-shadow: 0px 3px 6px var(--shadow);
             position: relative;
 
             p {
@@ -252,18 +207,17 @@ export const Experience = styled.div`
               display: block;
             }
 
-            &:not(#double-content) {
-              &::after {
-                content: "";
-                position: absolute;
-                width: 40%;
-                height: 100%;
-                top: -30%;
-                right: -45%;
-                background: url(/img/home/steps/content/arrow.svg);
-                background-size: 100% 100%;
-                z-index: 100;
-              }
+            &:not(#double-arrow) {
+              background-color: white;
+              box-shadow: 0px 3px 6px var(--shadow);
+              padding: 15px 30px;
+            }
+
+            &#double-arrow {
+              width: 10%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
 
             &#double-content {
@@ -389,6 +343,39 @@ export const Experience = styled.div`
               position: absolute;
               bottom: 20px;
               right: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .steps {
+      .step {
+        .double-double-arrow {
+          margin-top: 5px !important;
+          > div {
+            transform: scale(0.7);
+          }
+        }
+
+        .tripple {
+          > div {
+            img:nth-child(3) {
+              bottom: 0 !important;
+            }
+
+            .arrow-country {
+              width: 100% !important;
+            }
+          }
+        }
+
+        .simple {
+          > div {
+            img {
+              width: 15%;
             }
           }
         }
